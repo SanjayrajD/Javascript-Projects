@@ -1,0 +1,68 @@
+body
+{
+    background: url(../images/currency\ image.png) no-repeat;
+    background-size: cover;
+}
+.container h3
+{
+   font-size: 28px;
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+}
+.container 
+{
+    text-align: center;
+    padding-top: 100px;
+}
+.container .col
+{
+    border: none;
+    justify-self: center;
+}
+.container .col img 
+{
+    position: absolute;
+    z-index: -1;
+    filter: opacity(200%);
+    border-radius: 20px;
+    top: 90px;
+    left: 420px;
+    width: 530px;
+    height:400px;
+}
+.container .curr 
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.curr .converter
+{
+    padding-right: 20px;
+}
+.curr input,select 
+{
+     width:200px;
+     margin: 20px;
+     border-radius: 7px;
+     color: rgb(8, 8, 8);
+     font-weight: bold;
+     font-family: sans-serif;
+     border: 2px solid rgb(211, 230, 43);
+     padding: 5px;
+}
+.curr select
+{
+    background-color: rgb(228, 243, 13);
+}
+.container button 
+{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 7px;
+    background-color: rgb(190, 238, 16);
+    border: 1px solid black;
+    font-weight: bold;
+    color: rgb(7, 7, 7);
+    cursor: pointer;
+}

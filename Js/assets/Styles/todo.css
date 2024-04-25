@@ -1,0 +1,36 @@
+.container 
+{
+    text-align: center;
+    margin:200px auto;
+}
+input 
+ {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.container button 
+{
+    background-color: lightgoldenrodyellow;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.container span 
+{
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.result 
+{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.result P 
+{
+    cursor: pointer;
+    line-height: 0.5;
+}

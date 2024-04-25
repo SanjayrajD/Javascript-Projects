@@ -1,0 +1,23 @@
+h1
+{
+    font-size: 50px;
+}
+.container 
+{
+    padding-top: 170px;
+    text-align: center;
+}
+.container button 
+{
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 8px;
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container button:hover
+{
+    background-color: red;
+}
